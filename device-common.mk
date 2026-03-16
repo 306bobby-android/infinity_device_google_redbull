@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+# define Infinity stuff
+INFINITY_MAINTAINER := "306bobby"
+TARGET_HAS_UDFPS := false
+WITH_GAPPS := false
+
 # define hardware platform
 PRODUCT_PLATFORM := sm7250
 

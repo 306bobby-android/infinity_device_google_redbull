@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-infinity
 
 PRODUCT_PACKAGES += \
     ApertureOverlayRedbull
@@ -36,7 +36,7 @@ PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay-service.sdm
+    vendor.infinity.livedisplay-service.sdm
 
 $(call soong_config_set_bool,livedisplay_sdm,enable_dm,false)
 
@@ -47,8 +47,7 @@ PRODUCT_PACKAGES += \
 #BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
-#BCR
-$(call inherit-product, vendor/bcr/bcr.mk)
+
 
 # RCS
 PRODUCT_PACKAGES += \

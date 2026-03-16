@@ -32,8 +32,8 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 -include device/google/redbull/BoardConfigReservedSize.mk
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/dynamic
-BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
+BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-infinity/dynamic
+BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-infinity/vendor
 
 # Verified Boot
 ifneq ($(WITH_AVB),true)
